@@ -1,0 +1,145 @@
+/* css style */
+* {
+	padding: 0;
+	margin: 0;
+}
+.section {
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.section header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	padding: 20px;
+}
+.section header ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section header ul li {
+	list-style: none;
+	margin-left: 20px;
+}
+.section header ul li a {
+	color: #111;
+	text-decoration: none;
+	font-size: 13px;
+}
+.section header ul li button {
+	background-color: #4584ef;
+	border: none;
+	outline: none;
+	padding: 8px 14px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+body {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+.logo {
+	text-align: center;
+	padding-top: 70px;
+}
+
+/* INPUT SEARCH */
+input {
+	width: 450px;
+	padding: 14px 50px;
+	border-radius: 30px;
+	border: 1px solid rgb(199, 196, 196);
+	background: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png)
+			no-repeat,
+		url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Lens_Icon.svg/800px-Google_Lens_Icon.svg.png)
+			no-repeat,
+		url(../image/search.svg) no-repeat;
+	background-position: right 53px center, right 17px center, left 15px center;
+	background-size: 24px, 22px;
+	color: black;
+}
+input:focus {
+	box-shadow: 2px 2px 2px 2px #ccc;
+	outline: none;
+}
+.input-search {
+	padding-top: 20px;
+}
+/* BUTTON STYLE */
+.btn-container {
+	margin-top: 30px;
+}
+.btn {
+	cursor: pointer;
+	padding: 10px 20px;
+	background-color: #f8f9fa;
+	border: none;
+	border-radius: 4px;
+	margin-right: 20px;
+	color: #3c4043;
+	font-size: 15px;
+}
+.btn:hover {
+	border: 1px solid rgb(201, 198, 198);
+}
+/* LANGUAGES STYLE */
+
+.lang {
+	margin-top: 25px;
+}
+ol.langs {
+	list-style: none;
+}
+ol.langs li {
+	display: inline;
+	margin-right: 5px;
+}
+ol.langs li > a {
+	text-decoration: none;
+}
+/* FOOTER STYLE */
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #f2f2f2;
+}
+footer .row {
+	padding: 15px 25px;
+	border-top: 1px solid #dbdddf;
+	border-color: #ebecec;
+	color: #5f6368;
+}
+footer .row-1 {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #dbdddf;
+	padding: 15px 20px;
+	border-top: 1px solid #d3d3d4;
+}
+footer .row-1 ul {
+	display: flex;
+}
+footer .row-1 ul li {
+	list-style: none;
+	margin-left: 2px;
+}
+footer .row-1 ul li a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #5f6368;
+	margin-right: 25px;
+	font-family: arial;
+}
